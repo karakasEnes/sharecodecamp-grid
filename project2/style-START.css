@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  color: white;
+  background: rgb(19, 33, 38);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header,
+.products,
+.special-offers,
+.achievements,
+footer {
+  border: 2px solid greenyellow;
+}
+
+.img-computer,
+.big-offer {
+  width: 200px;
+  height: 200px;
+}
+
+.img-computer-sm,
+.sm-offer {
+  width: 50px;
+  height: 50px;
+}
+
+.achievement {
+  width: 400px;
+  height: 400px;
+}
+
+.hamburger {
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.sharecc-logo-wrapper {
+  flex-shrink: 0;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img.logo-sharecodecamp {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.follow-us {
+  height: 50px;
+}
+
+/* write your code below */

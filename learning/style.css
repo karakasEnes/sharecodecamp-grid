@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  background: rgb(165, 155, 155);
+  border: 5px solid rgb(95, 153, 28);
+}
+
+.grid-item {
+  font-size: 1.3rem;
+  background: rgb(79, 69, 69);
+  /* border: 2px solid red; */
+}
+
+/* write your code below */

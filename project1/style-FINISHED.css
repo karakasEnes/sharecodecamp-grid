@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your code below */
+
+.website {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+}
+
+.hero {
+  grid-column: 1 / -1;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  background: url('./images/mountain.jpg');
+  background-size: cover;
+  align-content: end;
+}
+
+.gallery-background {
+  background-color: rgba(17, 55, 101, 0.474);
+  grid-column: 1/-1;
+}
+
+.gallery-images-wrapper {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+}
+
+.gallery-images {
+  grid-column: 2 / -2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 20px 10px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 200px;
+}
